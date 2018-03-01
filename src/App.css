@@ -1,0 +1,42 @@
+.btn-margin {
+    margin: 7px 3px;
+}
+
+.wr-brand {
+    font-family: 'Eczar', serif;
+    font-weight: lighter;
+}
+
+.wr-api-heading {
+    font-family: 'Eczar', serif;
+    font-weight: 500;
+}
+
+.wr-api-text-lead {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.wr-api-replaced-text {
+    min-height: 150px;
+}
+
+.wr-faded-blue {
+    background-color: #39f;
+}
+
+.tm-sidebar-left {
+
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 240px !important;
+    padding: 40px 40px 60px 40px;
+    border-right: 1px #e5e5e5 solid;
+    overflow: auto;
+}
+
+.tm-sidebar-left + .tm-main {
+    padding-left: 240px;
+}
